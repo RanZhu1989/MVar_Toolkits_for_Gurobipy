@@ -6,7 +6,7 @@ The latest version of Gurobi (v10.0) introduced the matrix variable (Mvar) type.
 
 ## 2. Functions
 A temporary solution for fix & access *Mvar-based* models using external functions.
-|MVar version (This toolkits) | Usage | Var version (Official) | 
+|MVar version (This toolkits) | Usage | Dependent Var version (Official) | 
 |---|---|---|
 | _getMvarByName | Mvar version of getVarByName   | NA   | 
 |_getX_MvarByName| Mvar version of Var.X     |  _getMvarByName | 
@@ -21,6 +21,6 @@ Import the toolkits by using the following code:
 ```python
 from MVarToolkits import _fixMvar, _getX_MvarByName
 ```
-Please refer to Tools.ipynb for more details.
+Please refer to Tutorial.ipynb for more details.
 ## 5. Application
 This toolkits is used for updating the optimzation model-based reinforcement learning environment in the [repository](https://github.com/RanZhu1989/IL_Self_Healing).
